@@ -30,7 +30,7 @@ function WorksCard() {
           Browse Services
         </Typography>
         <Typography variant="body2" component="p" color="textSecondary">
-          well meaning and kindly a benevolent smile a benevolent smile
+          well meaning and kindly a benevolent smile a benevolent smil
           <br />
           {'"a benevolent smile"'}
         </Typography>

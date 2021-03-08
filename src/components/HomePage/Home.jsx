@@ -5,6 +5,8 @@ import OnlineSupport from "./OtherBox/OnlineSupport";
 import SuccessRate from "./OtherBox/SuccessRate";
 import HowItWorks from "./OtherBox/HowItWorks";
 import HappyCustomers from "./OtherBox/HappyCustomers";
+import OurPlans from "./OtherBox/OurPlans";
+import Footer from "./Footer/Footer";
 
 function Home() {
   return (
@@ -15,6 +17,8 @@ function Home() {
       <SuccessRate />
       <HowItWorks />
       <HappyCustomers />
+      <OurPlans />
+      <Footer />
     </div>
   );
 }

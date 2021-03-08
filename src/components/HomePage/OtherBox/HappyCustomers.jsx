@@ -42,7 +42,7 @@ function WorksCard() {
 
 function HappyCustomers() {
   return (
-    <div className="happyBox">
+    <div className="happyBox" style={{ marginBottom: "50px" }}>
       <h1 className="happyText">
         <span style={{ color: "#fff" }}>OUR</span> HAPPY
         <span style={{ color: "#fff" }}> CUSTOMERS</span>

@@ -2,6 +2,7 @@ import React from "react";
 import Logo from "./Logo";
 import Container from "@material-ui/core/Container";
 import HomeBanner from "../../../Images/home.png";
+import Navbar from "../../NavigationBarPages/Navbar";
 
 function Header() {
   return (
@@ -9,6 +10,7 @@ function Header() {
       {/* <img src={HomeBanner} alt="Home Banner" /> */}
       <Container>
         <Logo />
+        <Navbar />
       </Container>
     </div>
   );

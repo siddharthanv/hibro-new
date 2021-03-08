@@ -2,24 +2,23 @@ import React from "react";
 import AccessAlarmIcon from "@material-ui/icons/AccessAlarm";
 import Grid from "@material-ui/core/Grid";
 
-function OnlineSupport() {
+function OurPlans() {
   return (
-    <div className="firstHeading" style={{ marginBottom: "50px" }}>
+    <div className="ourPlansHeading" style={{ marginBottom: "50px" }}>
       <h1 style={{ paddingBottom: "30px" }}>
-        <span style={{ color: "#0066FF" }}>LARGEST HOME</span>
-        <span style={{ color: "#000000" }}> SERVICE PROVIDER</span>
+        <span style={{ color: "#0066FF" }}>OUR</span>
+        <span style={{ color: "#000000" }}> PLANS</span>
       </h1>
       <div className="blueAndYellow">
         <Grid container>
           <Grid item xs={6} className="blueBack whiteText">
             <h1 style={{ padding: "20px" }}>
-              <AccessAlarmIcon style={{ fontSize: 60 }} /> ONLINE SUPPORT
+              <AccessAlarmIcon style={{ fontSize: 60 }} /> GENERAL
             </h1>
           </Grid>
           <Grid item xs={6} className="yellowBack">
             <h1 style={{ padding: "20px" }}>
-              <AccessAlarmIcon style={{ fontSize: 60 }} />
-              <span>9962562562</span>
+              <AccessAlarmIcon style={{ fontSize: 60 }} /> PREMIUM
             </h1>
           </Grid>
         </Grid>
@@ -28,4 +27,4 @@ function OnlineSupport() {
   );
 }
 
-export default OnlineSupport;
+export default OurPlans;
